@@ -1,6 +1,5 @@
 #!/system/bin/sh
 # get_macaddrs (CyanogenMod)
-
 # by psyke83
 #
 # This script will read the MAC addresses from Samsung's RIL.
