@@ -63,7 +63,7 @@ BOARD_USES_ALSA_AUDIO := true
 BOARD_USES_LEGACY_RIL := true
 BOARD_MOBILEDATA_INTERFACE_NAME := "pdp0"
 
-# Camera
++# Camera
 USE_CAMERA_STUB := true
 ifeq ($(USE_CAMERA_STUB),false)
 BOARD_CAMERA_LIBRARIES := libcamera
