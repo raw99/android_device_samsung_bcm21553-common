@@ -65,9 +65,12 @@ BOARD_MOBILEDATA_INTERFACE_NAME			:= "pdp0"
 
 # Camera
 USE_CAMERA_STUB					:= true
+ifeq ($(USE_CAMERA_STUB),false)
+BOARD_CAMERA_LIBRARIES := libcamera
 BOARD_V4L2_DEVICE				:= /dev/video2
 BOARD_CAMERA_DEVICE				:= /dev/video0
 BOARD_USE_JPEG					:= true
+endif
 
 # GPU Stuff
 BOARD_EGL_CFG := brcm_usrlib/dag/vmcsx/egl.cfg
