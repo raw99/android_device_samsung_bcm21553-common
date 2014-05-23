@@ -62,6 +62,7 @@ PRODUCT_PACKAGES += \
 # Other
 PRODUCT_PACKAGES += \
     CMFileManager \
+	rzscontrol \
     make_ext4fs \
     setup_fs
 
